@@ -25,7 +25,7 @@ export const DogBreeds = [
     name: 'Zeus',
     age: '8',
     breed: 'Pitbull',
- 
+    
 
   }
 ];

@@ -19,6 +19,7 @@ function App() {
       <div className='dogbreeds-list'>
         <DogBreedsList DogBreeds = {DogBreeds} />
       </div>
+      
     </div>
   );
 }
