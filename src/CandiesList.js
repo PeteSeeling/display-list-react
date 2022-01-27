@@ -9,7 +9,6 @@ export default function CandiesList(props) {
     <p>{props.Candies.map((Candies, i) => <CandyItem key ={Candies, i} candyName={Candies} />)}
     </p>
     
-    
   </div>;
 }
 
