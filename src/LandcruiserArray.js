@@ -11,7 +11,10 @@ export const landcruisers = [
       {
         transmission: '5-speed',
         color: 'blue'
-      }],
+      },
+    ]
+  },
+  {
     
     model: 'HJ 45',
     maxPassengers: 2,
@@ -24,7 +27,10 @@ export const landcruisers = [
       {
         transmission: '4-speed',
         color: 'red'
-    }],
+      },
+    ]
+  },
+  {
 
     model: 'FJ 79',
     maxPassengers: 4,
@@ -37,7 +43,11 @@ export const landcruisers = [
       {
         transmission: 'Automatic',
         color: 'Green'
-    }],
+      },
+    ]
+  },
+  {
+
 
     model: 'FJ 80',
     maxPassengers: 6,
@@ -50,8 +60,9 @@ export const landcruisers = [
       {
         transmission: '5-Speed',
         color: 'Orange'
-    }],
+      }],
 
 
+  }
 
-]
+];
