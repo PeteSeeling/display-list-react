@@ -1,6 +1,4 @@
 import React from 'react';
-import { DogFriends } from './DogFriends-Data';
-
 
 
 export default function DogFriendsItem(props){
@@ -9,16 +7,11 @@ export default function DogFriendsItem(props){
     <h3>{ props.breed }</h3>
     <h4>{ props.age }</h4>
    
-   
     <div className='friend'>
-   
       {
         <div className='dog-friend'>
            friend:
-          {
-            props.friendName.map((friendName, i) =>
-              <p key={`${friendName.type}-${i}`}type={friendName.type}></p>)
-          }
+          <p> { props.friendName.type }</p>
         </div>
       }
     </div>
