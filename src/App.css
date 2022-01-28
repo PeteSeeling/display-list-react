@@ -39,3 +39,7 @@
 .dogbreeds-list{
   background-color: blue;
 }
+.dogFriends-item{
+  display:block;
+  background-color: yellow;
+}

@@ -4,10 +4,13 @@ import DogFriendsItem from './DogFriendsItem';
 
 export default function DogFriendsList(props) {
   return <div className='dog-friends'>
-    <h3>Dog Friends</h3>
+    Dog Friends
     <p>{
-      props.DogFriends.map((DogFriends, i) => <DogFriendsItem key = {DogFriends.name, i} name= {DogFriends.name} age={DogFriends.age} breed={DogFriends.breed} friend={DogFriends.friend.friendName} type={DogFriends.friend.type} image={DogFriends.friend.image} />)}</p>
-
+      props.DogFriends.map((DogFriends, i) =>
+        <DogFriendsItem key={`${DogFriends.name}-${i}`}
+          {...DogFriends}/>
+      )}
+    </p>
 
   </div>;
 }
