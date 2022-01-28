@@ -5,13 +5,11 @@ import CandiesList from './CandiesList';
 import DogBreedsList from './DogBreedsList';
 import DogFriendsList from './DogFriendsList';
 
-
 import { Candies } from './candies-data';
 import { DogBreeds } from './DogBreeds-Data';
 import { DogFriends } from './DogFriends-Data';
 import { landcruisers } from './LandcruiserArray';
 import LandCruiserList from './LandcruiserList';
-
 
 
 function App() {
@@ -30,7 +28,6 @@ function App() {
       <div className='landcruisers-list'>
         <LandCruiserList landcruisers ={landcruisers} />
       </div>
-
     </div>
   );
 }
