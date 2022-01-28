@@ -2,8 +2,8 @@ import React from 'react';
 import DogBreedsItem from './DogBreedsItem';
 
 export default function DogBreedsList(props) {
-  return <div className>
+  return <div className ='dog-breed-list'>
     Dog Breeds 
-    <p>{props.DogBreeds.map((DogBreeds, i) => <DogBreedsItem key = {DogBreeds.name, i} name={DogBreeds.name} age={DogBreeds.age} breed={DogBreeds.breed} image={DogBreeds.image_url} />)}</p>
+    <div>{props.DogBreeds.map((DogBreeds, i) => <DogBreedsItem key = {DogBreeds.name, i} name={DogBreeds.name} age={DogBreeds.age} breed={DogBreeds.breed} image={DogBreeds.image_url} />)}</div>
   </div>;
 }

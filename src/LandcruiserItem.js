@@ -6,9 +6,9 @@ export default function LandCruisersItem(props){
     <h3> Max Passengers: { props.maxPassengers }</h3>
     
     <div className='facts'>
-        Facts
+        Facts:
       {
-        props.facts.map((fact, i) => <p key ={`${fact}-${i}`}>{ fact } </p>)
+        props.facts.map((fact, i) => <div key ={`${fact}-${i}`}>{ fact } </div>)
       }
 
     </div>

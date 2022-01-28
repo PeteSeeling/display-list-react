@@ -43,3 +43,7 @@
   display:block;
   background-color: yellow;
 }
+.landcruisers-item{
+  border: solid 1px;
+  border-color: turquoise;
+}
