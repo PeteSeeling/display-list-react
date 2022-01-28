@@ -39,3 +39,11 @@
 .dogbreeds-list{
   background-color: blue;
 }
+.dogFriends-item{
+  display:block;
+  background-color: yellow;
+}
+.landcruisers-item{
+  border: solid 1px;
+  border-color: turquoise;
+}
